@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:CS292-Template/Assets/Resources/ReadMe.txt.txt.meta
 guid: 95e330ace65d3da4cbbeef7e71cd8fb4
 TextScriptImporter:
+=======
+guid: 480c8563118d3f64399bd96da10f26f1
+folderAsset: yes
+DefaultImporter:
+>>>>>>> mujtaba-add-art:CS292-Template/Assets/Art.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
