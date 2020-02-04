@@ -76,6 +76,7 @@ MonoBehaviour:
     width: 1
     height: 1
 <<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
 --- !u!1 &1269087351773864830
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,6 +149,8 @@ MonoBehaviour:
     height: 1
 --- !u!1 &1311561823625299224
 =======
+=======
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
 --- !u!1 &1062242058963775230
 >>>>>>> Long:CS292-Template/Assets/Prefabs/GameScreen.prefab
 GameObject:
@@ -565,6 +568,10 @@ RectTransform:
   m_Children:
   - {fileID: 6896549761968173894}
   - {fileID: 6531847896536115050}
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
+=======
+  - {fileID: 4680903119693622181}
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
   - {fileID: 3082200404772780480}
   - {fileID: 2317838974963601408}
   - {fileID: 6300618477210575807}
@@ -583,7 +590,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 4.8, y: 0}
+  m_AnchoredPosition: {x: 4.799988, y: 0}
   m_SizeDelta: {x: 0, y: 0}
 >>>>>>> Long:CS292-Template/Assets/Prefabs/GameScreen.prefab
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1373,6 +1380,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -1384,67 +1392,140 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!1001 &3725369206556919323
+=======
+  m_Texture: {fileID: 2800000, guid: 6de0133e6565c234c85dd2fd7d0c192e, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!1001 &7967216745901215751
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
     m_TransformParent: {fileID: 6745859167502890094}
     m_Modifications:
     - target: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
+=======
+    m_TransformParent: {fileID: 1733617903446290516}
+    m_Modifications:
+    - target: {fileID: 3343032106028913438, guid: 201f422d08f2740a099961e4fa85ee1d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343032106564267525, guid: 201f422d08f2740a099961e4fa85ee1d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343032106629637026, guid: 201f422d08f2740a099961e4fa85ee1d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
     - target: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
+=======
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
     - target: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
+=======
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
     - target: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
+=======
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
     - target: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
+=======
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
     - target: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
+=======
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
     - target: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
+=======
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
     - target: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
         type: 3}
       propertyPath: m_RootOrder
       value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
+=======
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
     - target: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
+=======
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
     - target: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
+=======
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
     - target: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1466,35 +1547,79 @@ PrefabInstance:
       value: 55.69
       objectReference: {fileID: 0}
     - target: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
+=======
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -417
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -408
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
         type: 3}
       propertyPath: m_AnchorMin.x
       value: 0.5
       objectReference: {fileID: 0}
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
     - target: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
+=======
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
         type: 3}
       propertyPath: m_AnchorMin.y
       value: 0.5
       objectReference: {fileID: 0}
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
     - target: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
+=======
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
         type: 3}
       propertyPath: m_AnchorMax.x
       value: 0.5
       objectReference: {fileID: 0}
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
     - target: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
+=======
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0.5
       objectReference: {fileID: 0}
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
     - target: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
+=======
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
         type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
       objectReference: {fileID: 0}
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
     - target: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
+=======
+    - target: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
     - target: {fileID: 1234831159307421146, guid: de27b65d9b65d1c4089ff4eebb97fc01,
         type: 3}
       propertyPath: m_Name
@@ -1507,4 +1632,33 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 118548692955992860, guid: de27b65d9b65d1c4089ff4eebb97fc01,
     type: 3}
   m_PrefabInstance: {fileID: 3725369206556919323}
+=======
+    - target: {fileID: 3343032106801920931, guid: 201f422d08f2740a099961e4fa85ee1d,
+        type: 3}
+      propertyPath: m_Name
+      value: Blaze (Moving)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343032106801920931, guid: 201f422d08f2740a099961e4fa85ee1d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343032107429107056, guid: 201f422d08f2740a099961e4fa85ee1d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343032107493755830, guid: 201f422d08f2740a099961e4fa85ee1d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 201f422d08f2740a099961e4fa85ee1d, type: 3}
+--- !u!224 &4680903119693622181 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3343032106801920930, guid: 201f422d08f2740a099961e4fa85ee1d,
+    type: 3}
+  m_PrefabInstance: {fileID: 7967216745901215751}
+>>>>>>> Emily-add-art:CS292-Template/Assets/Prefabs/GameScreen.prefab
   m_PrefabAsset: {fileID: 0}
