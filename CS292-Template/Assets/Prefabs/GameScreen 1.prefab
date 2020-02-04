@@ -29,8 +29,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
   m_Father: {fileID: 6745859167502890094}
   m_RootOrder: 13
+=======
+  m_Father: {fileID: 1733617903446290516}
+  m_RootOrder: 6
+>>>>>>> Long:CS292-Template/Assets/Prefabs/GameScreen.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -70,6 +75,7 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
 --- !u!1 &1269087351773864830
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,6 +147,9 @@ MonoBehaviour:
     width: 1
     height: 1
 --- !u!1 &1311561823625299224
+=======
+--- !u!1 &1062242058963775230
+>>>>>>> Long:CS292-Template/Assets/Prefabs/GameScreen.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,8 +178,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 13.328638, y: 7.6716, z: 7.6716}
   m_Children: []
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
   m_Father: {fileID: 6745859167502890094}
   m_RootOrder: 0
+=======
+  m_Father: {fileID: 1733617903446290516}
+  m_RootOrder: 8
+>>>>>>> Long:CS292-Template/Assets/Prefabs/GameScreen.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -239,8 +253,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
   m_Father: {fileID: 6745859167502890094}
   m_RootOrder: 6
+=======
+  m_Father: {fileID: 1733617903446290516}
+  m_RootOrder: 12
+>>>>>>> Long:CS292-Template/Assets/Prefabs/GameScreen.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -309,9 +328,15 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.47493, y: 0.94999, z: 1}
   m_Children: []
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
   m_Father: {fileID: 6745859167502890094}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_Father: {fileID: 1733617903446290516}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -540.015}
+>>>>>>> Long:CS292-Template/Assets/Prefabs/GameScreen.prefab
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 242, y: -317}
@@ -350,6 +375,7 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
 --- !u!1 &1918893469210582147
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,6 +447,9 @@ MonoBehaviour:
     width: 1
     height: 1
 --- !u!1 &3338470651811785354
+=======
+--- !u!1 &3393959221944109458
+>>>>>>> Long:CS292-Template/Assets/Prefabs/GameScreen.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -449,8 +478,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
   m_Father: {fileID: 6745859167502890094}
   m_RootOrder: 4
+=======
+  m_Father: {fileID: 1733617903446290516}
+  m_RootOrder: 5
+>>>>>>> Long:CS292-Template/Assets/Prefabs/GameScreen.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -518,6 +552,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0.99999726, w: 0.0023532815}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
   m_Children: []
   m_Father: {fileID: 6745859167502890094}
   m_RootOrder: 9
@@ -526,6 +561,31 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 592, y: -227}
   m_SizeDelta: {x: 100, y: 100}
+=======
+  m_Children:
+  - {fileID: 6896549761968173894}
+  - {fileID: 6531847896536115050}
+  - {fileID: 3082200404772780480}
+  - {fileID: 2317838974963601408}
+  - {fileID: 6300618477210575807}
+  - {fileID: 1608498132569642940}
+  - {fileID: 3269400189609515888}
+  - {fileID: 7727681520082407137}
+  - {fileID: 7663392028991162909}
+  - {fileID: 390932652310116822}
+  - {fileID: 1006400998363820822}
+  - {fileID: 7529606947620636015}
+  - {fileID: 7957055210845384914}
+  - {fileID: 7649551061583961244}
+  - {fileID: 3181697091407641127}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 4.8, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+>>>>>>> Long:CS292-Template/Assets/Prefabs/GameScreen.prefab
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7481101395718281923
 CanvasRenderer:
@@ -589,8 +649,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 13.733109, y: 2.2781084, z: 1.0297}
   m_Children: []
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
   m_Father: {fileID: 6745859167502890094}
   m_RootOrder: 1
+=======
+  m_Father: {fileID: 1733617903446290516}
+  m_RootOrder: 14
+>>>>>>> Long:CS292-Template/Assets/Prefabs/GameScreen.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -659,8 +724,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.73743, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
   m_Father: {fileID: 6745859167502890094}
   m_RootOrder: 14
+=======
+  m_Father: {fileID: 1733617903446290516}
+  m_RootOrder: 11
+>>>>>>> Long:CS292-Template/Assets/Prefabs/GameScreen.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -729,8 +799,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 0.38737, z: 1}
   m_Children: []
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
   m_Father: {fileID: 6745859167502890094}
   m_RootOrder: 10
+=======
+  m_Father: {fileID: 1733617903446290516}
+  m_RootOrder: 4
+>>>>>>> Long:CS292-Template/Assets/Prefabs/GameScreen.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -799,8 +874,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2.8564396, y: 2.8564396, z: 2.8564396}
   m_Children: []
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
   m_Father: {fileID: 6745859167502890094}
   m_RootOrder: 2
+=======
+  m_Father: {fileID: 1733617903446290516}
+  m_RootOrder: 9
+>>>>>>> Long:CS292-Template/Assets/Prefabs/GameScreen.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -939,9 +1019,15 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 13.66, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
   m_Father: {fileID: 6745859167502890094}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -540.015}
+=======
+  m_Father: {fileID: 1733617903446290516}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Long:CS292-Template/Assets/Prefabs/GameScreen.prefab
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 6, y: 339}
@@ -1009,8 +1095,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
   m_Father: {fileID: 6745859167502890094}
   m_RootOrder: 5
+=======
+  m_Father: {fileID: 1733617903446290516}
+  m_RootOrder: 10
+>>>>>>> Long:CS292-Template/Assets/Prefabs/GameScreen.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1079,9 +1170,15 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
   m_Father: {fileID: 6745859167502890094}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_Father: {fileID: 1733617903446290516}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -179.73001}
+>>>>>>> Long:CS292-Template/Assets/Prefabs/GameScreen.prefab
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 461, y: -154}
@@ -1149,8 +1246,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:CS292-Template/Assets/Prefabs/GameScreen 1.prefab
   m_Father: {fileID: 6745859167502890094}
   m_RootOrder: 16
+=======
+  m_Father: {fileID: 1733617903446290516}
+  m_RootOrder: 3
+>>>>>>> Long:CS292-Template/Assets/Prefabs/GameScreen.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
