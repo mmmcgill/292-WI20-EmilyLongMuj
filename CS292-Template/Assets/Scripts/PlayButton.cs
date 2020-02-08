@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,6 +23,9 @@ public class PlayButton : MonoBehaviour
 }
 =======
 ﻿using System.Collections;
+=======
+﻿/*using System.Collections;
+>>>>>>> PrototypeOne
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -31,9 +35,13 @@ public class PlayButton : MonoBehaviour
     public void OpenPanel()
     {
         if(Panel != null){
-            bool isActive = GameScreen.activeSelf;
-            GameScreen.setActive(!isActive);
+            bool isActive = Panel.activeSelf;
+            Panel.setActive(!isActive);
         }
     }
 }
+<<<<<<< HEAD
 >>>>>>> Long
+=======
+*/
+>>>>>>> PrototypeOne
