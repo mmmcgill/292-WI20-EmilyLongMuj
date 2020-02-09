@@ -4,17 +4,25 @@ using UnityEngine;
 
 public class PowerUpMonster : MonoBehaviour
 {
-    public GameObject SpeedUpIcon;
+    public GameObject Icon;
     void Start() {
-        SpeedUpIcon.SetActive(false);    
+        Icon.SetActive(false);    
     } 
     
     void OnTriggerEnter2D(Collider2D other) {
 
         BlazeFoxController controller = other.GetComponent<BlazeFoxController >();
         if(controller != null){
-            SpeedUpIcon.SetActive(true);
-            controller.ChangeSpeed();
+            Icon.SetActive(true);
+            
+            if(Icon.tag == "coffee"){
+                Debug.Log("coffee");
+                controller.ChangeSpeed(10);
+            }
+            if(Icon.tag == "monster"){
+                Debug.Log("monster");
+                controller.ChangeSpeed(1000);
+            }
             Destroy(gameObject);
         } 
     }

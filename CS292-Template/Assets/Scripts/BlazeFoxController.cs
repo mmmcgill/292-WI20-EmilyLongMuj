@@ -10,7 +10,7 @@ public class BlazeFoxController : MonoBehaviour
     private float dirX;
     public int maxHealth = 5;
     private int curHealth;
-    public int moveSpeed = 100;
+    public int moveSpeed = 300;
     private float countdown;
     
     private Rigidbody2D RigidBody2d;
@@ -28,19 +28,20 @@ public class BlazeFoxController : MonoBehaviour
            countdown -= Time.deltaTime;
        }
        if(countdown < 0 ){
-           moveSpeed = 100; 
+           moveSpeed = 500; 
        }
        dirX = CrossPlatformInputManager.GetAxis("Horizontal") * moveSpeed;
        RigidBody2d.velocity = new Vector2(dirX, 0f);
+
     }
 
-    public void ChangeSpeed(){
+    public void ChangeSpeed(int amount){
         
-        moveSpeed = 1000;
+        moveSpeed = amount;
         countdown = 5;
     }
 
-    void changeHealth(int amount){
+    public void changeHealth(int amount){
         curHealth -= amount;
         GUIHealthBar.instance.SetValue(curHealth);
     }

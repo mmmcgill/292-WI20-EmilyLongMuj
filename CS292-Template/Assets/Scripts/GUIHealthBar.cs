@@ -27,10 +27,9 @@ public class GUIHealthBar : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     public void SetValue(int value){
         int health = 5 - value;
-        for(int i = 1; i < 6 ;i++){
+        for(int i = 0; i < 6 ;i++){
             if(i == health){
                 HealthBar[i].SetActive(true);
             }
