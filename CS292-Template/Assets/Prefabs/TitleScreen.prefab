@@ -301,7 +301,7 @@ GameObject:
   - component: {fileID: 521313347093263796}
   - component: {fileID: 5375768907130906815}
   - component: {fileID: 3451678997925795807}
-  - component: {fileID: 426798805889405254}
+  - component: {fileID: 6635270750996707413}
   m_Layer: 5
   m_Name: Play Button
   m_TagString: Untagged
@@ -407,7 +407,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 426798805889405254}
+      - m_Target: {fileID: 6635270750996707413}
         m_MethodName: OpenPanel
         m_Mode: 1
         m_Arguments:
@@ -418,7 +418,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &426798805889405254
+--- !u!114 &6635270750996707413
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -427,11 +427,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 3610592198986373803}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fd0cc8c49062c14dbd846d690f87268, type: 3}
+  m_Script: {fileID: 11500000, guid: 57b2f30b290d54ffda2fd7792312e723, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   PanelToOpen: {fileID: 0}
-  CurrentPanel: {fileID: 0}
+  CurrentPanel: {fileID: 414183351888422245}
 --- !u!1 &5476010083961773631
 GameObject:
   m_ObjectHideFlags: 0
