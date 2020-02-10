@@ -9,6 +9,7 @@ public class projectile : MonoBehaviour
     private float maxSpeed = 100;
     public GameObject slowdownIcon;
     private float slowDuration;
+    
 
     float speed;
     float TempSpeed;

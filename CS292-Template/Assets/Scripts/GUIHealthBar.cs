@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GUIHealthBar : MonoBehaviour
 {
@@ -29,11 +30,27 @@ public class GUIHealthBar : MonoBehaviour
 
     public void SetValue(int value){
         int health = 5 - value;
-        for(int i = 0; i < 6 ;i++){
-            if(i == health){
+        if(health == 6)
+        {
+            RestartGame();
+        }
+        for (int i = 0; i < 6 ;i++){
+            if (i == health) {
                 HealthBar[i].SetActive(true);
             }
-            else HealthBar[i].SetActive(false);
+            else {
+                HealthBar[i].SetActive(false);
+                    /*RestartGame(); */}
+
         }
+    }
+    public void Update()
+    {
+       
+    }
+    public void RestartGame()
+    {
+        Debug.Log("this work");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // loads current scene
     }
 }

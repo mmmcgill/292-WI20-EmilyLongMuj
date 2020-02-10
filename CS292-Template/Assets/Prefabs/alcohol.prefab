@@ -138,6 +138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slowdownIcon: {fileID: 6673206068123714669, guid: 9fe0c7ce745fb104298248068ec032b1,
     type: 3}
+  psystem: {fileID: 6048487520337666065, guid: b57b53d0f80b76341a4a53b060223ea9, type: 3}
 --- !u!212 &7008001138887614360
 SpriteRenderer:
   m_ObjectHideFlags: 0

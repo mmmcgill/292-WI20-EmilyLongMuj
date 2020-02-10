@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2897719443650020918}
   - component: {fileID: 6048487520337666065}
   - component: {fileID: 6960074311530167719}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Final Collision Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4787,7 +4787,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
