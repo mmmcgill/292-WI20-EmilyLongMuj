@@ -6,6 +6,7 @@ public class Spawner : MonoBehaviour
 {
     public Transform[] SpawnPoint;
     public GameObject[] projectile;
+    public GameObject Panel;
 
     private float timeBtwSpawns;
     public float startTimeBtwSpawns;
@@ -24,9 +25,9 @@ public class Spawner : MonoBehaviour
         if(timeBtwSpawns <= 0){
             Transform randomSpawnPoint = SpawnPoint[Random.Range(0, SpawnPoint.Length)];
             GameObject randomProjectile = projectile[Random.Range(0, projectile.Length)];
+            GameObject spawnling = Instantiate(randomProjectile, randomSpawnPoint.position, Quaternion.identity) as GameObject;
+            spawnling.transform.SetParent(Panel.transform, false);
 
-            Instantiate(randomProjectile, randomSpawnPoint.position, Quaternion.identity);
-            
             if(startTimeBtwSpawns > minTimeBetweenSpawns){
                 startTimeBtwSpawns -= decrease;
             }

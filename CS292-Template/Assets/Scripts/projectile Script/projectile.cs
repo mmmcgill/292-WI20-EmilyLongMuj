@@ -13,7 +13,7 @@ public class projectile : MonoBehaviour
     float TempSpeed;
 
     void Start(){
-        speed = Random.Range(minSpeed, maxSpeed);
+        speed = 50;
         TempSpeed = speed;
     }
     void OnTriggerEnter2D(Collider2D other){
@@ -44,7 +44,7 @@ public class projectile : MonoBehaviour
         if(!slowdownIcon.activeSelf){
             speed = TempSpeed;
         }
-        
+        Debug.Log(speed);
     }
     
     void slowDown(){
