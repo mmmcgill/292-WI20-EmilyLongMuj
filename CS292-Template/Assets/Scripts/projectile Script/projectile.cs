@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class projectile : MonoBehaviour
 {   
@@ -20,12 +21,12 @@ public class projectile : MonoBehaviour
         BlazeFoxController controller = other.GetComponent<BlazeFoxController >();
         if(controller != null){
             controller.changeHealth(1);
-            Debug.Log("try");
         } 
         projectile noTouch = other.GetComponent<projectile >();
         if(noTouch != null){
             return; 
         }
+        HighScore.instance.changeScore(1);
         Destroy(gameObject);
     }
     // Update is called once per frame
@@ -44,7 +45,6 @@ public class projectile : MonoBehaviour
         if(!slowdownIcon.activeSelf){
             speed = TempSpeed;
         }
-        Debug.Log(speed);
     }
     
     void slowDown(){
