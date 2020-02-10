@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonsterIcon : MonoBehaviour
+public class Icon : MonoBehaviour
 {
-    public GameObject SpeedUpIcon;
+    public GameObject IconSprite;
     private float countdown;
     // Start is called before the first frame update
     void Start()
     {
-        if(SpeedUpIcon.activeSelf){
+        if(IconSprite.activeSelf){
             countdown = 5;
         }
     }
@@ -21,7 +21,7 @@ public class MonsterIcon : MonoBehaviour
             countdown -= Time.deltaTime;
         }
         else{
-            SpeedUpIcon.SetActive(false);
+            IconSprite.SetActive(false);
         }
         //TODO: Re-check when drink monster again
     }
