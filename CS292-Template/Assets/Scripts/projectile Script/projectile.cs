@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class projectile : MonoBehaviour
 {   
-    public float minSpeed;
-    public float maxSpeed;
+    private float minSpeed = 30;
+    private float maxSpeed = 100;
     public GameObject slowdownIcon;
-    public float slowDuration;
+    private float slowDuration;
 
     float speed;
     float TempSpeed;
