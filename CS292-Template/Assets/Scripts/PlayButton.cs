@@ -1,5 +1,5 @@
 
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,11 +20,7 @@ public class PlayButton : MonoBehaviour
     }
   
 }
-/*=======
-﻿using System.Collections;
-=======
-﻿/*using System.Collections;
->>>>>>> PrototypeOne
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -39,7 +35,5 @@ public class PlayButton : MonoBehaviour
         }
     }
 }
-<<<<<<< HEAD
->>>>>>> Long
-=======
 */
+
