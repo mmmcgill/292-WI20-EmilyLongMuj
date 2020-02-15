@@ -5,7 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - monster
+<<<<<<< HEAD
   - coffee
+=======
+  - projectile platform
+>>>>>>> Long
   layers:
   - Default
   - TransparentFX

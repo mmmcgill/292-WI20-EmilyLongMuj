@@ -16,12 +16,15 @@ public class Icon : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        if(countdown > 0){
-            countdown -= Time.deltaTime;
-        }
-        else{
-            IconSprite.SetActive(false);
+    {   
+        if(IconSprite.activeSelf){
+            if(countdown > 0){
+                countdown -= Time.deltaTime;
+            }
+            else{
+                IconSprite.SetActive(false);
+                countdown = 5;
+            }
         }
         //TODO: Re-check when drink monster again
     }
