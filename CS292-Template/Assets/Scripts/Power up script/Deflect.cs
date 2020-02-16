@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//placebo
-public class CoffeeSlowDown : MonoBehaviour
+
+public class Deflect : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
