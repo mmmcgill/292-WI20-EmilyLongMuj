@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -551, y: -756}
+  m_AnchoredPosition: {x: 17418, y: -19542}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!198 &6386594443554346228
@@ -1543,7 +1543,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 21300000, guid: f92d59dd1bd1043f9aae43a869040de7, type: 3}
+    - sprite: {fileID: 21300000, guid: de955007fde5d6444afc0f6cbaa09784, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
