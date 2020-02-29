@@ -26,7 +26,7 @@ public class HighScore : MonoBehaviour
     {
         if(score > highscore){
             highscore = score;
-            txt.text = score.ToString();
+            txt.text = "score: " + score.ToString();
         }
     }
     public void changeScore(int amount){
